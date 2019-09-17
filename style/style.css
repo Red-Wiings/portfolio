@@ -55,13 +55,13 @@ h1{
     font-size:44px
   }
 }
-h2{
+h3{
   color:rgba(3,27,78,.7);
   font-size:20px;
   font-weight: 400;
 }
 @media only screen and (max-width: 411px){
-  h2{
+  h3{
     color:rgba(3,27,78,.7);
     font-size:22px
   }
@@ -138,7 +138,6 @@ ul{
   width:200px;
   border-radius:4px;
   font-size: 15px;
-
 }
 .boxform3:hover{
     box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
@@ -154,6 +153,18 @@ ul{
   width:200px;
   border-radius:4px;
   font-size: 15px;
+}
+.boxform5{
+  background-color: #e91e4d;
+  display:inline-block;
+  padding:5px;
+  margin:5px 0;
+  width:200px;
+  border-radius:4px;
+  font-size: 15px;
+}
+.boxform5:hover{
+    box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
 }
 a.btnblanc{
   color: #000;
@@ -323,19 +334,24 @@ p#accroche{
   cursor: pointer;
   margin-top: 25px;
 }
+#decouvrirStage{
+  color:#fff;
+  outline:none;
+  display: inline-block;
+}
 #decouvrir:hover{
   box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
 }
 a.explo{
   color: #fff;
 }
-h3{
+h2{
   color:#031b4e;
   font-size: 28px;
   font-weight: 500;
 }
 @media only screen and (max-width: 411px){
-  h3{
+  h2{
     color:#031b4e;
     font-size: 24px;
   }
@@ -1459,10 +1475,6 @@ section#triplebox{
   display: none;
 }
 
-/*stage*/
-section#stage{
-  margin-top: 20px;
-}
 
 .stagezone{
   text-align: center; padding-bottom: 25px; display: flex; background: url(assets/fond3.png); background-repeat: no-repeat;
@@ -1522,8 +1534,20 @@ section#stage{
   background-repeat: no-repeat;
   padding: 175px 0px 60px 0px;
 }
+#PresentationCompetence{
+  background-repeat: no-repeat;
+  padding: 20px 0px 15px 0px;
+}
+#PresentationEntreprise{
+  background: url('../assets/fond.png');  
+  background-repeat: no-repeat;
+  padding: 175px 0px 10px 0px;
+}
+#PresentationVisual{ 
+  background-color: #F4F6FC;
+}
 @media only screen and (max-width: 411px){
-	#Presentation{	
+	#Presentation, #PresentationVisual{	
 		padding: 175px 0px 15px 0px;
 	}
 	#bd{
@@ -1538,7 +1562,7 @@ section#stage{
 	.boxright{
 		display: none;
 	}
-	h2{
+	h3{
 		font-size: 18px;
 	}
 
