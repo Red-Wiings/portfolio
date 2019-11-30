@@ -222,7 +222,8 @@ hr{
   font-weight:300
 }
 p.foot{
-  margin-bottom:5px;
+  font-size: 13px;
+  font-weight: 400;
   color: rgba(3,27,78,.7);
 }
 .box{
@@ -316,8 +317,8 @@ button#sub{
   text-align:center
 }
 p.content{
-  font-size:14px;
-  font-weight:300;
+  font-size:13px;
+  font-weight:400;
   margin-bottom:5px;
   color:rgba(3,27,78,.7);
 }
