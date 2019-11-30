@@ -41,7 +41,7 @@ header{
   width:100%;
 }
 footer{
-  background-color:#F4F6FC;
+  background-color:#fdfdfd;
   color:#fff
 }
 h1{
@@ -131,7 +131,15 @@ ul{
   border-radius:4px
 }
 .boxform3{
-  background-color: #3d5af1;
+  background: radial-gradient(circle at 50% 0,
+  #B00020,
+  rgba(255,0,0,0) 70.71%),
+radial-gradient(circle at 6.7% 75%,
+#790000,
+  rgba(0,0,255,0) 70.71%),
+radial-gradient(circle at 93.3% 75%,
+#790000,
+  #B00020 70.71%) white;
   display:inline-block;
   padding:5px;
   margin:5px 0;
@@ -179,7 +187,7 @@ p.skill{
   font-size:20px
 }
 li.current a{
-  color: rgb(65, 62, 255);
+  color:#790000;
 }
 #fleche{
   margin-top: 15px;
@@ -323,7 +331,15 @@ p#accroche{
 }
 
 #decouvrir{
-  background-color:#4273ff;
+  background:radial-gradient(circle at 50% 0,
+  #B00020,
+  rgba(255,0,0,0) 70.71%),
+radial-gradient(circle at 6.7% 75%,
+#790000,
+  rgba(0,0,255,0) 70.71%),
+radial-gradient(circle at 93.3% 75%,
+#790000,
+  #B00020 70.71%) white;
   padding:7px 0px;
   border-radius:4px;
   color:#fff;
@@ -1354,7 +1370,7 @@ section{
   height: 10px;
   right: -3px;
   background-color: #fff;
-  border: 2px solid #1890ff;
+  border: 2px solid #790000;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
