@@ -187,7 +187,7 @@ p.skill{
   font-size:20px
 }
 li.current a{
-  color:#790000;
+  color:#274ebf;
 }
 #fleche{
   margin-top: 15px;
@@ -198,7 +198,7 @@ li.current a{
   #logo{
     display:inline-block;
     float:left;
-    margin-left:15px
+    margin-left:15px;
   }
 }
 strong{
@@ -333,14 +333,14 @@ p#accroche{
 
 #decouvrir{
   background:radial-gradient(circle at 50% 0,
-  #B00020,
+  #4273ff,
   rgba(255,0,0,0) 70.71%),
 radial-gradient(circle at 6.7% 75%,
-#790000,
+#274ebf,
   rgba(0,0,255,0) 70.71%),
 radial-gradient(circle at 93.3% 75%,
-#790000,
-  #B00020 70.71%) white;
+#274ebf,
+  #4273ff 70.71%) white;
   padding:7px 0px;
   border-radius:4px;
   color:#fff;
@@ -1347,8 +1347,9 @@ section{
 .timeline::after {
   content: '';
   position: absolute;
-  width: 2px;
-  background-color: #e8e8e8;
+  width: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #ddd;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -1367,11 +1368,11 @@ section{
 .containetime::after {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
-  right: -3px;
-  background-color: #fff;
-  border: 2px solid #790000;
+  width: 16px;
+  height: 16px;
+  right: -7px;
+  background-color: #F4F6FC;
+  border: 2px solid #274ebf;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -1384,7 +1385,7 @@ section{
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 55%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -1392,7 +1393,7 @@ section{
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -7px;
+  left: -32px;
 }
 
 /* The actual content */
@@ -1449,9 +1450,7 @@ section#triplebox{
 }
 
 .threebox1{
-  box-shadow: 1px 0px 8px #7272;
-  background-color: #fff;
-  width: 30%;
+  width: 500px;
   margin-left: auto;
   margin-right: 5px;
   padding: 20px 25px;
@@ -1549,7 +1548,7 @@ section#triplebox{
 #Presentation{
   background: url('../assets/fond.png');  
   background-repeat: no-repeat;
-  padding: 175px 0px 60px 0px;
+  padding: 175px 0px 20px 0px;
 }
 #PresentationCompetence{
   background-repeat: no-repeat;
