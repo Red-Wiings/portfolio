@@ -254,38 +254,6 @@ p.foot{
 #propos{
   padding:20px
 }
-label{
-  display:block;
-  text-align:left;
-  font-size:22px;
-  margin:0
-}
-textarea{
-  width:100%;
-  max-width:700px;
-  border: 1px solid #fff;
-  border-radius:4px;
-  padding:5px;
-  color:#000;
-  height:250px;
-  font-size:16px;
-  padding-left:10px;
-  box-shadow:inset 0px 0px 5px 1px rgba(151, 151, 151, 0.18);
-  resize : none;
-  outline: none;
-}
-@media only screen and (max-width: 411px){
-  textarea{
-    width:100%;
-    max-width:700px;
-    border-radius:4px;
-    padding:5px;
-    color:#000;
-    height:100px;
-    font-size:16px;
-    padding-left:10px
-  }
-}
 button#sub{
   border-radius:4px;
   background-color:#3d5af1;
@@ -382,34 +350,9 @@ h2{
     font-size: 24px;
   }
 }
-input{
-  width:100%;
-  max-width:700px;
-  border:1px solid #fff;
-  border-radius:4px;
-  padding:5px;
-  color:#000;
-  font-size:16px;
-  padding-left:10px;
-  box-shadow:inset 0px 0px 5px 1px rgba(151, 151, 151, 0.18);
-  outline: none;
-}
-#formulaire{
-  text-align:center;
-  width:90%;
-  margin:auto;
-  max-width:700px
-}
 
 #propos{
   padding-top:25px;
-  padding-bottom:40px;
-  text-align:left;
-  display: inline-block;
-  width: 1040px;
-  padding-left: 20px;
-}
-#contact{
   padding-bottom:40px;
   text-align:left;
   display: inline-block;
@@ -431,7 +374,7 @@ input{
   display: inline-block;
 }
 @media only screen and (max-width: 411px){
-  #h3s, #formation, #projet, #cv, #contact{
+  #h3s, #formation, #projet, #cv{
     width: 320px;
     padding-left: 0px;
     padding-right: 0px;
