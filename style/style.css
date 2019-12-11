@@ -6,6 +6,17 @@ html{
   width:100%;
   height:100%
 }
+body{
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  height:100%;
+  font-size: 16px;
+}
+@media only screen and (max-width: 411px){
+  body{
+    font-size: 14px;
+  }
+}
 a{
   color:#031b4e;
   text-decoration:none;
@@ -26,17 +37,7 @@ li.mobile{
   display:block;
   padding:10px 10px
 }
-body{
-  font-family: 'Roboto', sans-serif;
-  width:100%;
-  height:100%;
-  font-size: 16px;
-}
-@media only screen and (max-width: 411px){
-  body{
-    font-size: 14px;
-  }
-}
+
 header{
   width:100%;
 }
@@ -113,60 +114,12 @@ ul{
   margin:0;
   padding:0
 }
+
+
 .boxform{
-  background-color:#171717;
-  display:inline-block;
-  color:#fff;
-  padding:10px 15px;
-  margin:5px;
-  box-shadow:1px 1px 12px #111;
-  width:235px;
-  border-radius:4px
-}
-.boxform2{
-  display:inline-block;
-  color:#fff;
-  margin:5px;
-  box-shadow:1px 1px 12px #111;
-  width:300px;
-  border-radius:4px
-}
-.boxform3{
-  background: radial-gradient(circle at 50% 0,
-  #B00020,
-  rgba(255,0,0,0) 70.71%),
-radial-gradient(circle at 6.7% 75%,
-#790000,
-  rgba(0,0,255,0) 70.71%),
-radial-gradient(circle at 93.3% 75%,
-#790000,
-  #B00020 70.71%) white;
-  display:inline-block;
-  padding:5px;
-  margin:5px 0;
-  width:200px;
-  border-radius:4px;
-  font-size: 15px;
-}
-.boxform3:hover{
-    box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
-}
-.boxform4:hover{
-    box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
-}
-.boxform4{
-  background-color: #fff;
-  display:inline-block;
-  padding:5px;
-  margin:5px 0;
-  width:200px;
-  border-radius:4px;
-  font-size: 15px;
-}
-.boxform5{
   background: radial-gradient(circle at 50% 0,
   #e13d3d,
-  rgba(255,0,0,0) 70.71%),
+  rgba(78, 61, 61, 0) 70.71%),
 radial-gradient(circle at 6.7% 75%,
 #a72121,
   rgba(0,0,255,0) 70.71%),
@@ -180,9 +133,7 @@ radial-gradient(circle at 93.3% 75%,
   border-radius:4px;
   font-size: 15px;
 }
-.boxform5:hover{
-    box-shadow: 0 1px 1px 0px rgba(60,64,67,.08), 0px 3px 3px 0px rgba(60,64,67,.16);
-}
+
 a.btnblanc{
   color: #000;
 }
@@ -220,20 +171,10 @@ h6{
   color: #031b4e;
   font-weight: 500;
 }
-hr{
-  background-color:#bbb;
-  width:60px;
-  margin-top:5px
-}
 .boxcontent{
   word-wrap:break-word;
   font-size:14px;
   font-weight:300
-}
-p.foot{
-  font-size: 13px;
-  font-weight: 400;
-  color: rgba(3,27,78,.7);
 }
 .box{
   display:inline-block;
@@ -393,21 +334,6 @@ h2{
 #men1{
   width:100%
 }
-.img1{
-  margin-top:-10px;
-  margin-left:4px
-}
-.img2{
-  margin-left:5px;
-  margin-top:-5px
-}
-.img3{
-  margin-top:-5px
-}
-.img4{
-  margin-top:-7px;
-  margin-left:8px
-}
 section{
   text-align: center;
 }
@@ -512,7 +438,7 @@ section{
 
 
 /*----------Triple boites-----------*/
-.threebox1{
+.threebox{
   width: 500px;
   margin-left: auto;
   margin-right: 5px;
@@ -521,14 +447,11 @@ section{
 }
 
 @media only screen and (max-width: 411px){
-  .threebox1{
+  .threebox{
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     box-shadow: none;
-  }
-  #cadretriplebox{
-    display: block;
   }
 }
 .typed-cursor {
@@ -536,30 +459,17 @@ section{
 }
 
 
-.stagezone{
-  text-align: center; padding-bottom: 25px; display: flex; background: url(assets/fond3.png); background-repeat: no-repeat;
-}
-.boxleft{
-  width:35%; background-color: #fff; display: inline-block; margin-left: auto; padding: 20px 25px; box-shadow: 1px 0px 8px #7272;
-}
+
 .boxright{
   box-shadow: 1px 0px 8px #7272; width: 35%; background-color: #F4F6FC; display: inline-block; margin-right: auto;
 }
-.boxright2{
-  width:35%; background-color: #fff; display: inline-block; margin-right: auto; padding: 20px 25px; box-shadow: 1px 0px 8px #7272;
-}
-.boxleft2{
-  box-shadow: 1px 0px 8px #7272; width: 35%; background-color: #F4F6FC; display: inline-block; margin-left: auto;
-}
 
 @media only screen and (max-width: 411px){
-  .boxleft, .boxright, .boxleft2, .boxright2{
+  .boxright{
     width:100%;
     display: block;
   }
-  .stagezone{
-    display: block;
-  }
+  
 }
 
 
@@ -612,9 +522,6 @@ section{
 	}
 	#bd{
 		display: none;
-	}
-	.boxleft, .boxleft2, .boxright2{
-		box-shadow: none;
 	}
 	section#stage{
 		margin-top: 0px;
